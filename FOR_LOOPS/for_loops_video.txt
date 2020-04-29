@@ -1,0 +1,97 @@
+This is the transcript of the Youtube video by Mr. Martinson named "Video 5 - Using FOR loops in C++"
+
+hi and welcome to our next tutorial
+video on C++ remember that there's many
+tutorials on YouTube that can help you
+learn C++ this series is designed to be
+shortened to the point so you can get
+programming right away after watching
+this short tutorial I highly recommend
+that you open up a free editor like
+repli'd and try what I have shown you
+you will learn a lot by just playing
+with the code in this program we're
+gonna take a look at a for loop and what
+and that is in C++ loops are really
+important in any programming language we
+can have infinite loops that continue on
+forever or we can have finite loops and
+what a finite loop is is it means it
+only loops so many times or it only does
+something so many times maybe it does
+something three times or five times or
+ten times
+that's a finite number and what sort of
+a for loop does is it does something
+over a certain number of times we're
+gonna look at this program here we've
+got hash tag include iostream don't
+forget that in your program and then we
+have our int main we've got a main
+function here we've got a curly brace
+here that has to match with this curly
+brace here and what we're gonna do is
+we're going to have a variable called
+input it is of type integer and then
+we're going to output to the monitor
+please enter an integer our user is
+going to enter some integer value and we
+are going to use the CN command and
+store it in the variable called input
+next we're going to set up a for loop
+and we are going to have this for loop
+loop a certain number of times how many
+times well whatever the user entered in
+for a number so if the user enters and
+five this will loop and execute five
+times if they put seven it will execute
+seven times and then stop
+how do we do that well we've got our for
+loop here and then we have the
+conditions here that allow us to loop a
+certain number of times after that we
+have a curly brace here and another
+matching curly brace here and in between
+there this is what we want to loop over
+and over whatever is in between these
+curly braces here what this part of the
+for loop does is it says the first time
+through the for loop X is equal to one
+and we want this for a loop to keep
+executing as long as X is less than or
+equal to the input whatever the user
+entered then semicolon X plus plus what
+that does is it increments the value of
+x by one so every time this for loop
+goes through the value of X goes up by
+one so the first time X is equal to one
+the next time through the loop X is
+equal to two and it keeps working like
+that it will keep looping until this
+here is false so X is less than or equal
+to input if it is then this will execute
+if it's not true it will jump and it
+will go down to return zero and our
+program will end so let's take a look at
+how this works so if we click run and
+our program says please enter an integer
+and I put in the integer five our
+program inside the for loop takes the
+value of X and it displays it in our
+monitor so we can see see out here the
+value of X first time through is equal
+to one next time through the value of X
+is equal to two because we've
+incremented it here next time through
+it's equal to three when it gets to five
+in our case
+five is less than or equal to five so it
+will output five but the next time
+through when it gets to six is six less
+than or equal to five no it's not so it
+doesn't execute this line again it jumps
+down to return zero and the program
+terminates the program ends that's it
+for this video try this on your own and
+see if it works and we'll see you next
+time

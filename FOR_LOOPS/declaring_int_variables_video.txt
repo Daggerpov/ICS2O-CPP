@@ -1,0 +1,60 @@
+This is the transcript of the Youtube video by Mr. Martinson named "Video 2 Declaring a variable of type integer"
+
+hi and welcome to our tutorial on C++
+there are many tutorials on YouTube that
+you can use to help you learn C++ this
+series is designed to be short and to
+the point so you can get programming
+right away after watching this short
+tutorial I highly recommend that you
+open up a free editor like repli'd and
+try what I have shown you you will learn
+a lot by playing with the code today
+we're gonna take a look at how we can
+declare variables and then use them in a
+short program so we've got a comment on
+line 1 line 2 remember we need to
+include what we have there that is
+hashtag include iostream make sure you
+have that in your program and then we
+have our main function here and after we
+have int space main bracket bracket
+we've got a curly brace here and we've
+got a curly brace here inside there we
+have our code make sure at the end of
+each of the lines we've got a semicolon
+here and let's take a look at what's
+inside here line 6 what we've done is
+we've declared two different variables
+one variable is called some integer and
+we've got another variable called
+another integer we can declare more than
+one variable in one line if we want so
+that's what we've done here in line 7
+what we've done is we've taken an
+integer value in this case 8 and we are
+putting it into the variable called some
+integer so that's what we're doing here
+this gets placed in here line 8 we take
+3 which is an integer and we store that
+into the variable called another integer
+line 9 we are going to output to the
+screen and we do that with the CL
+command we need this STD full colon full
+colon in front of it we'll talk more
+about that later on and we're going to
+put to the screen here is an integer and
+we are going to put the value of
+integer which we know is 8 this will
+move us to the next line and in the next
+line we're gonna have output to the
+screen here is another integer and we're
+going to display another integer so we
+know that that is 3 if we've typed this
+in properly this should run without
+errors so let's try it and sure enough
+we get what we expect here is an integer
+8 here is another integer 3 so that's
+how we can declare variables of type
+integer try this one and we'll see you
+next time

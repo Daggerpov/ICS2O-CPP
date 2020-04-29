@@ -1,0 +1,68 @@
+This is the transcript of the Youtube video by Mr. Martinson named "Video 1 - Intro to C++"
+
+hi and welcome to our tutorial on C++
+there's many tutorials on YouTube that
+can help you learn C++ this series is
+designed to be very short and to the
+point so you can get programming right
+away we're gonna look at more details
+later on but for now we just want you to
+get coding and just trying things after
+watching this short tutorial I highly
+recommend that you open up a free editor
+like repli'd and try what I have shown
+you you will learn a lot by playing with
+the code today we're just gonna take a
+look at a very short C++ program and
+when we're done with this video I highly
+suggest you go and try this line one
+here we've got forward slash forward
+slash this just represents a comment
+comments are really good especially when
+our programs get really long it reminds
+us what the following code is going to
+be used for lying three we've got this
+here that we need to have in our C++
+program think of it like gasoline for a
+car we need this to get this to run
+properly so for now just make sure you
+include this this is called the return
+type here this int make sure you have
+that and then we have the identifier
+this is called the main program or main
+function and again we'll talk about
+functions more later on notice we've got
+a curly brace here and a curly brace
+here we must have this here and this
+here in our C++ program this STD full
+colon full colon CL is gonna allow us to
+output something to the screen so we
+need to have that in and as well as less
+than less than and then whatever we want
+displayed on the screen we were gonna
+type that in double quotes we've got a
+slash in here what that's is gonna do is
+move to the next line and basically
+we've got the same line down here this
+return 0 is optional but I put it in for
+now just for good practice notice that
+we have a semicolon at the end
+here the anterior and the end here and
+we were gonna need that to run our
+program we're simply gonna go up here
+and hopefully everything is taken
+correctly if not we will get an error
+here and we're gonna have to figure out
+what that error might be we might have
+what we call a syntax error maybe I left
+it a full semicolon maybe I forgot and I
+typed something incorrectly but this
+will let us know over on this side here
+so if we click run basically all this
+program does is it displays hello world
+to the screen twice and that's all it
+does and it does that with the co2
+command the co command allows us to
+display to the monitor that's it for
+this tutorial try this and we'll see you
+next time

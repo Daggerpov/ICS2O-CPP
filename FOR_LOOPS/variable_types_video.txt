@@ -1,0 +1,102 @@
+This is the transcript of the Youtube video by Mr. Martinson named "Video 4 - Some variable types in C++"
+
+hi and welcome back in this video we're
+gonna take a look at variable types in
+C++ and specifically the ones we're
+gonna take a look at are the type
+integer which is shown by this here int
+double is another one we're gonna take a
+look at that think of that as anything
+with a decimal we're gonna look at char
+we're gonna look at string and we're
+gonna look at boolean's
+so here's the different variable types
+that we have here this one is an integer
+and we're declaring this variable here
+type integer and we're gonna sign it an
+initial value of 12 so we can do that
+and don't forget the semicolon after
+that next we are declaring a double here
+this is put in the variable name type
+double and it's gonna be declared and
+equal to seven point eight nine notice
+that we have a decimal here so that is
+different from int we must have double
+if we're gonna have a decimal value here
+a char is of type alphanumeric so if we
+have a letter the alphabet or a number
+or a special character we can put this
+in here if we want to treat it as an
+alphanumeric and do something with a
+letter or a number notice that if we
+assign it we only have single quotes
+here so in this case here we have a
+single quote a single quote so watch
+that when you are declaring type char
+we've got a string down here and we are
+taking the string hello a string is just
+a number of characters put together can
+be alphanumeric and they are put
+together and inside quotations or double
+quotation specifically and we're gonna
+store that in a variable name called
+type string
+the last one here is the bool type or
+boolean and a boolean type is simply
+true or false that is what is stored in
+bulan so there are a number of different
+variable types here I suggest that you
+play with each of these and just see how
+these work let's try a different couple
+of things here just so you understand if
+I click on run here and you can see that
+our program does compile and run this is
+an integer 12 this is a double a 7.89
+this is an alphanumeric in other words
+this is a char and that's the letter e
+this is a string hello and this is
+boolean's and it shows as a1 which in
+programming we can identify as true as
+well
+so if I did something like this for
+instance if I go here and I'm gonna put
+in type integer 12.5 now it's no longer
+a integer type and you can see that we
+get something underlined here and if we
+try to run this you're gonna see that
+yes it does cause an error and it says
+do we want to change the value and we we
+don't we want to make sure that we
+assign it right so make sure for int it
+is only of integer type we need to
+change that back what if I take seven
+point eight nine as a double and I
+change it to just seven if I run that is
+that gonna be an error well let's try it
+and no it's not it doesn't cuz remember
+it may or may not have a decimal it
+doesn't matter if we don't know it might
+or might not have a decimal value for an
+answer
+we should declare it as a double just to
+make sure
+why wouldn't we use a double all the
+time then for all numbers well we are
+concerned about the space and the amount
+of memory that our program takes up so
+if it is an integer we should just use
+an integer if we need a decimal value we
+will click on double char remember that
+we have single quotes if we do use
+double quotes on this here and we try to
+run it you can see that it does give us
+an error so make sure for a char we have
+a single quote and a single quote so
+here are some different variable types
+that you can use in your programs we
+have to declare them correctly and we're
+gonna work with more of these later on
+this video just shows you some of the
+variable types that you can have in your
+C++ program that's it for this video
+thanks for watching see you next time

@@ -1,0 +1,82 @@
+This is the transcript of the Youtube video by Mr. Martinson named "Video 3 - Getting user input"
+
+hi and welcome to our next tutorial
+video on C++ remember that there's many
+tutorials on YouTube that can help you
+learn C++ this series is designed to be
+short and to the point so you can get
+programming right away after watching
+this short tutorial I highly recommend
+that you open up a free editor like
+repli'd and try what I have shown you
+you will learn a lot by playing with the
+code in this program we're gonna learn
+how we can get user input so in line to
+make sure you include hash tag include
+iostream we need that in our program as
+compared to the last program we added
+another line here because there's always
+more than one way you can do things in
+programming and instead of having a std
+full colon full colon in front of co2
+instead I'm gonna try this here I'm
+gonna put using namespace STD and
+semicolon after that and what that does
+is it allows me to not have to put STD
+phone call and full colon in front here
+or here
+so notice that change in this program
+line four we have our main function here
+this is the return type this is the
+identifier this is our main function so
+make sure you have this typed in exactly
+like this and make sure you've got curly
+brace here curly brace here and then we
+have our code inside what this program
+does is in line six we declare three
+different variables of type integer
+first one is first number second number
+and then we have sum of two numbers
+whenever you're picking variable names
+always big variable names that make
+sense makes our code easier to follow
+line seven we are telling the user to
+enter the first digit and hit enter line
+eight what that does is it takes
+whatever the user entered for that
+integer and it stores it into the
+variable called first number notice that
+C out is written like this we've got
+less than less than
+but for C n it's greater than greater
+than think of it like C n we are placing
+the input from the user into this
+variable here C out next line we've got
+enter the second integer and hit enter
+and then the next line line 10 we are
+going and taking that user input and
+storing it into second number line
+twelve does a calculation it takes the
+first number and it adds to the second
+number and stores it in to sum of two
+numbers so in programming we do the
+calculation over on the right hand side
+and it gets stored into the variable on
+the left hand side line fourteen is
+going to display that first number
+whatever that is plus the second number
+whatever the user entered is going to
+equal the sum of two numbers and then
+we've got return zero so let's go ahead
+and try this so if we click on run and
+the program says enter the first integer
+and hit enter so if we put five and
+enter and enter the second integer and
+hit enter I'm gonna hit seven enter then
+it outputs five plus seven is equal to
+twelve so in this program we declare
+three variables of type integer and we
+use those to do a sum calculation and
+then output the answer that's it for
+this video thanks for watching see you
+next time
