@@ -20,7 +20,7 @@ void read_text(string filename){
             cin >> lines;
         }else if(response == "y"){
             break;
-        }else if(response != "y" || response != "n"){
+        }else{
             cout << "What you entered as an answer to that question was invalid. Please enter either the letter y or n to answer the question next time." << "\n";
             cout << "In case you didn't know, y means 'yes' and n means 'no'." << "\n";
         }
