@@ -105,7 +105,7 @@ int main(){
         cout << "Your score has gone below 0. You lose the game";
     }
 
-    cout << "\nYour score in DOUBLE SPIN ended up being: " << score << ".\nGoodbye. The Program will end now.";
+    cout << "\nYour score in DOUBLE SPIN ended up being: " << score << ".\n\nGoodbye. The Program will end now.\n";
 
     //just like earlier, the command below will end the program
     return random_number;
