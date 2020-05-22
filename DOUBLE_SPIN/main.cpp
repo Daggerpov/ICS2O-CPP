@@ -12,7 +12,7 @@ int random_number = 6;
 int main(){
     //this is where the program starts
     
-    //I'm asking the user whether they want to play the game and storing their input
+    //I'm asking the user whether they want to play the game and am storing their input
     string response;
     cout << "Would you like to play DOUBLE SPIN? Type either 'yes' or 'no'\n";
     cin >> response;
@@ -20,10 +20,10 @@ int main(){
     /*based on the user's response, this conditional will decide whether to end the 
     program or keep it going*/
     if (response != "yes"){
-        cout << "The problem will end now, goodbye!\n";
+        cout << "The program will end now, goodbye!\n";
 
         /*this takes the variable defined earlier and returns it to end the main function
-        of the program, essentially ending the program*/
+        of the program, essentially ending the program as a whole*/
         return random_number;
     }
 
@@ -33,7 +33,7 @@ int main(){
     "earn as many points as you can, without going under 0, in which case the program will end.\n"
     "You can either earn or lose points after every round based on your spin conditions\n"
     "and if they are 'winning', 'losing', or 'neither'. These are the various colours you can\n"
-    "choose for either spinner: green, yellow, blue, black. You'll be asked which ones you wish\n"
+    "choose for either spinner: green, yellow, blue, black, and red. You'll be asked which ones you wish\n"
     "to select at the start of every round. After each round, you may decide\n"
     "whether you would like to keep playing the game or exit with your current point total.\n";
     
@@ -50,9 +50,20 @@ int main(){
     bool first_time = true;
     while(score >= 0){
         
-        /*depending on whether or not it's the user's first time going through 
-        the while loop, the program will ask if they wish to go through it*/
+        
         if(first_time != true){
+
+            /*this conditional checks whether the user's score is above or below 0 before asking if 
+            they want to play another round*/
+            if(score < 0){
+                cout << "Your score has gone below 0. You lose the game";
+                /*this will break out of the while loop if the user's score has gone below 0, 
+                since they can't keep playing*/
+                break;
+            }
+
+            /*depending on whether or not it's the user's first time going through 
+            the while loop, the program will ask if they wish to go through it*/  
             string another_round;
             cout << "Would you like to play another round? Type either 'yes' or 'no':\n";
             cin >> another_round;
@@ -62,26 +73,26 @@ int main(){
             }
         }
 
-        /*now the program will ask the user for their two spinner values, then 
-        store them in two separate variables*/
-        string first_spinner;
-        string second_spinner;
-
-        cout << "\nHere's what the each of the spinners would look like to give you a visual:\n\n"
+        cout << "\nHere's what the each of the spinners would look like to give you a decent visual:\n\n"
         //not the best visual ever, but gets the job done to display the spinners
         "          ---------------------------          \n"
-        "         |            |              |         \n"
-        "        |             |               |        \n"
-        "       |    green     |      blue      |       \n"
+        "         |            | black|       |         \n"
+        "        |             |    |          |        \n"
+        "       |    green     | |     red      |       \n"
         "      |               |                 |      \n"
         "     |-----------------------------------|     \n"
         "      |               |                 |      \n"
-        "       |    black     |     yellow     |       \n"
+        "       |    blue      |     yellow     |       \n"
         "        |             |               |        \n"
         "         |            |              |         \n"
         "          ---------------------------          \n"
         ;
         
+        /*now the program will ask the user for their two spinner values, then 
+        store them in two separate variables*/
+        string first_spinner;
+        string second_spinner;
+
         cout << "\nPlease type your first spinner value: \n";
         cin >> first_spinner;
         cout << "Please type your second spinner value: \n";
@@ -114,10 +125,6 @@ int main(){
 
         /*then, the while loop will check if the score is above or below 0 in the
         conditional, breaking the loop if it's below*/
-    }
-    
-    if(score < 0){
-        cout << "Your score has gone below 0. You lose the game";
     }
 
     cout << "\nYour score in DOUBLE SPIN ended up being: " << score << ".\n\nGoodbye. The Program will end now.\n";
