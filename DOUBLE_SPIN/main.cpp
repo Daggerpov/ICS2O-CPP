@@ -66,6 +66,21 @@ int main(){
         store them in two separate variables*/
         string first_spinner;
         string second_spinner;
+
+        cout << "\nHere's what the each of the spinners would look like to give you a visual:\n\n"
+        //not the best visual ever, but gets the job done to display the spinners
+        "          ---------------------------          \n"
+        "         |            |              |         \n"
+        "        |             |               |        \n"
+        "       |    green     |      blue      |       \n"
+        "      |               |                 |      \n"
+        "     |-----------------------------------|     \n"
+        "      |               |                 |      \n"
+        "       |    black     |     yellow     |       \n"
+        "        |             |               |        \n"
+        "         |            |              |         \n"
+        "          ---------------------------          \n"
+        ;
         
         cout << "\nPlease type your first spinner value: \n";
         cin >> first_spinner;
