@@ -3,6 +3,9 @@
 //this next library is used to store string variable types
 #include <string>
 
+//this other library is the one you gave us, in order to generate a random number in C++
+#include <ctime>
+
 using namespace std;
 
 /*here I just need to set a random number to give something to return 
@@ -85,11 +88,11 @@ int main(){
         "       |    blue      |     yellow     |       \n"
         "        |             |               |        \n"
         "         |            |              |         \n"
-        "          ---------------------------          \n"
+        "          ---------------------------          \n\n"
         ;
         
         /*now the program will ask the user for their two spinner values, then 
-        store them in two separate variables*/
+        store them in two separate variables
         string first_spinner;
         string second_spinner;
 
@@ -97,6 +100,134 @@ int main(){
         cin >> first_spinner;
         cout << "Please type your second spinner value: \n";
         cin >> second_spinner;
+        */
+
+        //here I'm declaring the variables I'll need to store the spinner values in, once I randomly generate them
+        string first_spinner;
+        string second_spinner;
+
+        for(int i= 0; i<2; i++){
+            string spinner_number;
+            
+            if(i == 0){
+                spinner_number = "first";
+            }else if(i ==1){
+                spinner_number = "second";
+            }
+            
+            //this just supports the rand() function that generates random numbers
+            int random_int;
+
+            /*since there should be 12 different triangles for the spinner to land on, the range of 
+            randomly generated numbers will be between 0 and 12, then based on the odds will 
+            convert to the proper spinner value*/
+            srand(time(NULL));
+
+            //this randomly generated number after the % sign will be stored in the variable declared earlier
+
+            //since we only need 12 possible values, I made the max number of the range 11 so it'll be from 0-11
+            random_int = rand() %11;
+
+            switch(random_int){
+                case 0:
+                    cout << "You got green for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "green";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "green";
+                    }
+                    break;
+                case 1:
+                    cout << "You got yellow for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "yellow";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "yellow";
+                    }
+                    break;
+                case 2: 
+                    cout << "You got blue for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "blue";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "blue";
+                    }
+                    break;
+                case 3: 
+                    cout << "You got black for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "black";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "black";
+                    }
+                    break;
+                case 4: 
+                    cout << "You got green for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "green";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "green";
+                    }
+                    break;
+                case 5: 
+                    cout << "You got yellow for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "yellow";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "yellow";
+                    }
+                    break;
+                case 6: 
+                    cout << "You got blue for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "blue";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "blue";
+                    }
+                    break;
+                case 7: 
+                    cout << "You got red for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "red";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "red";
+                    }
+                    break;
+                case 8: 
+                    cout << "You got green for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "green";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "green";
+                    }
+                    break;
+                case 9: 
+                    cout << "You got yellow for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "yellow";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "yellow";
+                    }
+                    break;
+                case 10: 
+                    cout << "You got blue for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "blue";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "blue";
+                    }
+                    break;
+                case 11: 
+                    cout << "You got red for your " << spinner_number << " spinner value\n";
+                    if(spinner_number == "first"){
+                        first_spinner = "red";
+                    }else if(spinner_number == "second"){
+                        second_spinner = "red";
+                    }
+                    break;
+            }
+        }
+
 
         /*based on these two values, the program will evaluate whether this condition
         constitutes a 'win', 'loss', or 'neither'.*/
