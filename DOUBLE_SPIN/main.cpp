@@ -36,9 +36,9 @@ int main(){
     "earn as many points as you can, without going under 0, in which case the program will end.\n"
     "You can either earn or lose points after every round based on your spin conditions\n"
     "and if they are 'winning', 'losing', or 'neither'. These are the various colours you can\n"
-    "choose for either spinner: green, yellow, blue, black, and red. You'll be asked which ones you wish\n"
-    "to select at the start of every round. After each round, you may decide\n"
-    "whether you would like to keep playing the game or exit with your current point total.\n";
+    "receive for either spinner: green, yellow, blue, black, and red. You'll be given 2\n"
+    "at the start of every round. After each round, you may decide whether\n"
+    "you would like to keep playing the game or exit with your current point total.\n";
     
     //this sets the user's initial score to 1000 before starting
     int score = 1000;
